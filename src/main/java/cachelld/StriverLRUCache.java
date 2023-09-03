@@ -1,10 +1,9 @@
-package cache;
+package cachelld;
 
 import java.util.HashMap;
 import java.util.Map;
 
 class LRUCache {
-
 	Node head = new Node(0, 0);
 	Node tail = new Node(0, 0);
 	Map<Integer, Node> map = new HashMap<>();
