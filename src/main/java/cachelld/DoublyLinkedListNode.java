@@ -1,12 +1,6 @@
 package cachelld;
 
 //import lombok.Getter;
-
-/**
- * Object which is inserted in the {@link DoublyLinkedList}. A single node is expected to be created for each element.
- *
- * @param <E> Type of element to be inserted into the list.
- */
 //@Getter
 public class DoublyLinkedListNode<E> {
     
