@@ -18,4 +18,7 @@
   <classpathentry kind="var" path="M2_REPO/org/junit/platform/junit-platform-launcher/1.8.1/junit-platform-launcher-1.8.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/junit/platform/junit-platform-suite-api/1.8.1/junit-platform-suite-api-1.8.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/junit/platform/junit-platform-suite-commons/1.8.1/junit-platform-suite-commons-1.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/collections/google-collections/1.0/google-collections-1.0.jar"/>
 </classpath>
