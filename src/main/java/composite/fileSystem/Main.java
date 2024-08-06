@@ -10,7 +10,7 @@ public class Main {
 
 		Directory movieDirectory1 = new Directory("HorrorMovie");
 		FileSystem file1 = new File("Darr");
-		movieDirectory1.add(file);
+		movieDirectory1.add(file1);
 
 		movieDirectory.add(movieDirectory1);
 		movieDirectory.ls();

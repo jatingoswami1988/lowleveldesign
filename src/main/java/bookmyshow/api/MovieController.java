@@ -1,7 +1,6 @@
 package bookmyshow.api;
 
-import com.uditagarwal.model.Movie;
-import com.uditagarwal.services.MovieService;
+import bookmyshow.services.MovieService;
 import lombok.AllArgsConstructor;
 import lombok.NonNull;
 

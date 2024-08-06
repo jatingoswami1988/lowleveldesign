@@ -8,7 +8,7 @@ public class DebugLogProcessor extends LogProcessor {
 
 	@Override
 	public void log(int level, String message) {
-
+		System.out.println("Inside Debug LogProcessor");
 		if (level == DEBUG) {
 			System.out.println("Debug :" + message);
 		} else {

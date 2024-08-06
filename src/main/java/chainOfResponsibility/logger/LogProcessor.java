@@ -13,7 +13,7 @@ public abstract class LogProcessor {
 	}
 
 	public void log(int level, String message) {
-
+		System.out.println("Inside LogProcessor");
 		if (nextLogProcessor != null) {
 			nextLogProcessor.log(level, message);
 		}

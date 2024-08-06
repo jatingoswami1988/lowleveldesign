@@ -1,12 +1,17 @@
 package bookmyshow.api;
 
-import lombok.AllArgsConstructor;
-import lombok.NonNull;
-
 import java.util.List;
 import java.util.stream.Collectors;
 
-@AllArgsConstructor
+import bookmyshow.model.Seat;
+import bookmyshow.model.Show;
+import bookmyshow.services.BookingService;
+import bookmyshow.services.ShowService;
+import bookmyshow.services.TheatreService;
+import lombok.AllArgsConstructor;
+import lombok.NonNull;
+
+
 public class BookingController {
     private final ShowService showService;
     private final BookingService bookingService;

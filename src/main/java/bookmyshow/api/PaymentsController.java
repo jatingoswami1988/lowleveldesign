@@ -1,7 +1,7 @@
 package bookmyshow.api;
 
-import com.uditagarwal.services.BookingService;
-import com.uditagarwal.services.PaymentsService;
+import bookmyshow.services.BookingService;
+import bookmyshow.services.PaymentsService;
 import lombok.NonNull;
 
 public class PaymentsController {
